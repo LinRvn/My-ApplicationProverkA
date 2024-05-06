@@ -32,6 +32,10 @@ class MainActivity : AppCompatActivity() {
 	}
 }
 
+
+
+
+
 object DBConnection {
 	private const val DB_URL =
 		"jdbc:mysql://10.0.2.2:3306/test123?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8"
